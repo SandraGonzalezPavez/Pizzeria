@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzeria</title>
+  <link rel="stylesheet" href="./assets/css/BootstrapcCSS/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body onload="asignarEventos()">
+
+  <div class="container"><br>
+    <h1>Elige algo para beber</h1><br>
+    <h4h6>Disfruta de nuestra clásica selección de tragos</h4h6><br><br>
+    <div class="form-check ">
+      <input class="form-check-input" type="checkbox" id="martini" value="option1">
+      <label class="form-check-label" for="inlineCheckbox1">Martini$2.550</label>
+
+    </div>
+    <div class="form-check ">
+      <input class="form-check-input" type="checkbox" id="cappuccino" value="option2">
+      <label class="form-check-label"
+        for="inlineCheckbox2">Cappuccino $1.370</label>
+    </div>
+    <div class="form-check ">
+      <input class="form-check-input" type="checkbox" id="latte" value="option3">
+      <label class="form-check-label"
+        for="inlineCheckbox3">Latte $1.350 </label>
+    </div>
+    <div class="form-check ">
+      <input class="form-check-input" type="checkbox" id="mojito" value="option3">
+      <label class="form-check-label" for="inlineCheckbox3"> Mojito $2.290</label>
+    </div>
+  </div><br>
+  <div class="container-menu">
+    <h1>Menú</h1>
+    <h5>Disfruta de la mejor comida Italiana</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="ensaladaRiso" value="option1">
+      <label class="form-check-label" for="inlineCheckbox1"></label>
+
+      <h5>Insalata de riso </h5>
+
+      <div class="content-wrapper">
+        <p>L'Insalata de riso e un classico delle ricette estive. Veloce e facile da preparare l'insalata de riso si puo
+          insaporire con gil ingredienti piu vari.</p>
+        <img src="./assets/img/riso.webp" alt="Insalata de riso"><br>
+        
+      </div>
+      <p><strong>$6.750</strong></p>
+    </div>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="ensaladaRiso" value="option1">
+      <label class="form-check-label" for="inlineCheckbox1"></label>
+
+      <h5>Insalata ia cipollotti </h5>
+
+      <div class="content-wrapper">
+        <p>Piu delicati delle cipolle, i cipollotti sono perfetti in insalata, sui pesce a sulia carne.</p>
+        <img src="./assets/img/cipollotti.jpeg" alt="Insalata ai cipollotti">
+      </div>
+      <p><strong>$5.990</strong></p>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="ensaladaRiso" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1"></label>
+
+        <h5>Insalata caprese</h5>
+
+        <div class="content-wrapper">
+          <p>Questo platto e un culto della citta partenopea dove la mozzarrella e protagonista di moltissimi.</p>
+          <img src="./assets/img/caprese.jpeg" alt="Insalata caprese">
+        </div>
+        <p><strong>$8.250</strong></p>
+      </div><br>
+      <div class="container-total">
+        <h1>Cuenta</h1>
+        <h5>Esperamos que disfrute de su comida ¡Ciao!</h5>
+        <table id="finalizarCompra">
+          <tr>
+            <th>Item</th>
+            <th>Precio</th>
+          </tr>
+          <tr id="item">
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr id="precio">
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th><strong>total</strong></th>
+            <th></th>
+
+          </tr>
+        </table>
+      </div>
+      <script src="./assets/js/logica.js"></script>
+      <script src="./assets/js/BootstrapJS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
